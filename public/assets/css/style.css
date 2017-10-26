@@ -94,13 +94,17 @@ a:hover {
 
 .icon-text {
     position: absolute;
-    margin-left: 14%;
+    margin-left: 10%;
     margin-top: 8%;
     font-weight: bold;
 }
 
+.tech-col {
+    padding: 0;
+}
+
 .languages {
-    font-size: 18px;
+    font-size: 14px;
     padding: 0;
 }
 
@@ -112,6 +116,8 @@ a:hover {
     margin: 20px;
     position: relative;
     padding: 0;
+    width: 33%;
+    float: left;
 }
 
 .img-responsive {
