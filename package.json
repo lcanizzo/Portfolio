@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/lcanizzo/Portfolio/issues"
   },
-  "homepage": "https://github.com/lcanizzo/Portfolio#readme"
+  "homepage": "https://github.com/lcanizzo/Portfolio#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0"
+  }
 }
