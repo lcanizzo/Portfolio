@@ -1,5 +1,7 @@
 const express = require('express');
 const router = express.Router();
+const projects = require('../projects/projects.js');    
+console.log("PROJECT:\n", projects);
 
 router.get("/", (request, response)=>{
     response.render("index");
@@ -7,7 +9,7 @@ router.get("/", (request, response)=>{
 })
 
 router.get("/work", (req, res)=>{
-    res.render("work");
+    res.render("work", {project : projects});
     console.log("Work Renderd");
 })
 
