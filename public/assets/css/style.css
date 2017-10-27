@@ -119,6 +119,20 @@ a:hover {
     font-weight: bold;
 }
 
+.project-status {
+    width: 100%;
+    font-weight: 500;
+    font-size: 16px;   
+}
+
+.completed {
+    color: green;
+}
+
+.in-development {
+    color: red;
+}
+
 .tech-col {
     padding: 0;
 }
@@ -128,8 +142,21 @@ a:hover {
     padding: 0;
 }
 
+.card {
+    height: 450px;    
+}
+
+.project-header {
+    padding-bottom: 0;
+}
+
 .project-content {
     height: 175px;
+    padding-top: 0;
+}
+
+.project-footer {
+    padding-bottom: 0;
 }
 
 .work-box {

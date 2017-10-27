@@ -20,10 +20,12 @@
 </nav>
 
 <div class="slider">
+
     {{#each project}}
     <div class="work-box">
         <div class="card container">
-            <div class="card-body row justify-content-between">
+            
+            <div class="card-body row justify-content-between project-header">
                 <div class="col-sm-auto" style="padding : 0">
                     <div class="app-icon" style="background-color: {{color}}">
                         <p class="icon-text">{{initials}}</p>
@@ -38,11 +40,21 @@
                 </div>
                 <div class="col-1"></div>
             </div>
+
             <div class="card-body row project-content">
+                <div class="project-status" >
+                    {{#if status}}
+                        <p class="completed">Completed</p>
+                    {{else}}
+                        <p class="in-development">In Development</p>
+                    {{/if}}
+                </div>
+                {{!-- <p class="project-status"> {{status}}</p> --}}
                 <h4 class="card-title">{{name}}</h4>                                
                 <p class="card-text">{{description}}</p>
             </div>
-            <div class="card-body row justify-content-around">                                
+
+            <div class="card-body row justify-content-around project-footer">                                
                 <a href={{appLink}} target="_blank">App</a>
                 <a href={{repoLink}} target="_blank">Repo</a> 
             </div>
