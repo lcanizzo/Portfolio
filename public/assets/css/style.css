@@ -1,6 +1,7 @@
 /* Body Navbar and Wrapper */
 
-html, body {
+html,
+body {
     background-color: #fefefe;
     padding: 0;
     margin: 0;
@@ -17,39 +18,39 @@ html, body {
 
 .header-content {
     color: #444;
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
 }
 
 .header-title {
     color: #444;
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 32px;
 }
 
 .wrapper {
     min-height: 100%;
     margin-bottom: -60px;
-    }
+}
 
 .push {
     height: 60px;
 }
-    
+
 .vertical-center {
-    min-height: 100%;  
-    min-height: 100vh; 
-  
+    min-height: 100%;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+
 /* Home Page */
 
 .home-content .title {
     color: #444;
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .title {
@@ -59,13 +60,14 @@ html, body {
 .home-link {
     color: #444;
     font-size: 42px;
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a:hover {
     color: #888888;
     text-decoration: underline;
 }
+
 
 /* Bio Page */
 
@@ -82,7 +84,23 @@ a:hover {
     padding-top: 3%;
 }
 
+
 /* Work Page */
+
+.slider {
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    
+}
+
+.slider>div {
+    flex-shrink: 0;
+    width: 300px;
+    height: 500px;
+}
+
+
 .app-icon {
     background-color: rgb(226, 222, 222);
     font-size: 75px;
@@ -104,19 +122,19 @@ a:hover {
 }
 
 .languages {
-    font-size: 14px;
+    font-size: 12px;
     padding: 0;
 }
 
-.work-container {
-    margin-top: 90px;
+.project-content {
+    height: 175px;
 }
 
 .work-box {
     margin: 20px;
     position: relative;
     padding: 0;
-    width: 33%;
+    width: 28%;
     float: left;
 }
 
@@ -127,15 +145,16 @@ a:hover {
 .work-title {
     text-align: center;
     color: #333333;
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
+
 
 /* Contact Page */
 
 .contact-page-content {
     margin-top: 35px;
     color: #444;
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .connect {
@@ -151,15 +170,16 @@ a:hover {
     /* width: 80%; */
 }
 
+
 /* Footer */
 
 .footer-content {
     color: #444;
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     margin-top: 5px;
     margin-bottom: 5px;
-} 
+}
 
 .fixed-footer {
     position: absolute;
@@ -171,18 +191,19 @@ a:hover {
 
 .center-footer {
     margin: 0 auto;
-    width:50%;
+    width: 50%;
 }
+
 
 /* Media Queries */
 
 @media only screen and (max-width:480px) {
     .bio-img {
-        display:none;
+        display: none;
     }
     .bio-content {
         font-size: 12px;
-        margin-top:20px;
+        margin-top: 20px;
     }
 }
 
@@ -200,6 +221,7 @@ a:hover {
         padding: 3px;
     }
 }
+
 
 /*@media only screen and (max-width:664px) {
     .work-title-box {
