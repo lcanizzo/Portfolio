@@ -102,7 +102,8 @@ a:hover {
 
 
 .app-icon {
-    background-color: rgb(226, 222, 222);
+    background-color: rgb(242, 214, 214);
+    border-radius: 3px 60px;
     font-size: 75px;
     width: 150px;
     height: 150px;
@@ -111,6 +112,7 @@ a:hover {
 }
 
 .icon-text {
+    color: dimgray;
     position: absolute;
     margin-left: 10%;
     margin-top: 8%;
