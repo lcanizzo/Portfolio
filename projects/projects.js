@@ -43,7 +43,7 @@ const projects = [
         initials : "S.B",
         name : "Study Buddy",
         technologies : ["jQuery", "Javascript", "Bootstrap", "SQL", "AJAX", "Express", "node", "CSS"],
-        description : "(In Development) A mobile-first app that matches students to trade tutoring services.",
+        description : "A mobile-first app that matches students to trade tutoring services.",
         appLink : "https://shrouded-basin-79387.herokuapp.com/",
         repoLink : "https://github.com/lcanizzo/Study_Buddy",
         color: "#fdd0ac",
